@@ -52,6 +52,9 @@ Moodle-Task-Viewer-For-Ruppin/
 
 5. Open the Ruppin Moodle website – the task viewer panel will appear automatically.
 
+6. Make sure the ORIGINAL assignments view is set to "Sort By Date / מיין לפי תאריך" and the assignments list is set to "all / הכל"
+   
+
 Additional instructions can be found in Instructions.pdf.
 
 ---
