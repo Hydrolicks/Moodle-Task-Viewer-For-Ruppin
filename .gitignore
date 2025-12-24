@@ -1,0 +1,22 @@
+# Node / build
+node_modules/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Package artifacts
+*.tgz
+
+# Secret or local config
+secrets.json
+
+# Chrome extension packaging
+*.crx

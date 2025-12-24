@@ -1,0 +1,23 @@
+
+
+{
+  "manifest_version": 3,
+  "name": "Moodle Task Viewer",
+  "version": "2.0",
+  "description": "Organizes assignment submissions with a floating task viewer",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://moodle.ruppin.ac.il/*"],
+      "exclude_matches": ["https://moodle.ruppin.ac.il/login/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
