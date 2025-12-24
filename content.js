@@ -42,7 +42,7 @@
   // Static, hard-coded profile links 
   const STATIC_PROFILES = {
     linkedin: 'https://www.linkedin.com/in/asaf-amrani',
-    github: 'https://github.com/yourname'
+    github: 'https://github.com/Hydrolicks/Moodle-Task-Viewer-For-Ruppin'
   };
 
   // -------------------------------
