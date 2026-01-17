@@ -36,6 +36,23 @@ Moodle-Task-Viewer-For-Ruppin/
 
 ---
 
+## 🔧 Installation (Chrome Web Store – Recommended)
+
+The simplest way to install Moodle Task Viewer for Ruppin is directly from the Chrome Web Store.
+
+Open the extension page on the Chrome Web Store:
+👉 [Install from Chrome Web Store](https://chromewebstore.google.com/detail/moodle-task-viewer/mdcaplopjndbjjohkeamogegcnjfogpe?hl=iw)
+
+Click “Add to Chrome”.
+
+Confirm by clicking “Add extension”.
+
+Open the Ruppin Moodle website – the task viewer panel will appear automatically.
+
+Make sure the ORIGINAL assignments view is set to "Sort By Date / מיין לפי תאריך" and the assignments list is set to "all / הכל".
+
+---
+
 ## 🔧 Installation (Developer Mode)
 
 1. Clone the repository:
