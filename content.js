@@ -746,6 +746,7 @@
     const collapsed = document.getElementById('viewer-collapsed');
     const btn = document.getElementById('viewer-toggle-btn');
     const viewer = document.getElementById('moodle-task-viewer');
+    const footer = document.querySelector('.viewer-footer');
     
     isCollapsed = !isCollapsed;
     
@@ -753,6 +754,7 @@
       // Collapse to small square
       body.style.display = 'none';
       header.style.display = 'none';
+      if (footer) footer.style.display = 'none';
       collapsed.style.display = 'flex';
       viewer.classList.add('viewer-collapsed-state');
       viewer.style.width = '60px';
@@ -765,14 +767,15 @@
       // Expand to full view
       body.style.display = 'block';
       header.style.display = 'flex';
+      if (footer) footer.style.display = 'block';
       collapsed.style.display = 'none';
       viewer.classList.remove('viewer-collapsed-state');
-      viewer.style.width = '380px';
+      viewer.style.width = 'auto';
       viewer.style.height = 'auto';
-      viewer.style.minWidth = '380px';
+      viewer.style.minWidth = '400px';
       viewer.style.minHeight = 'auto';
-      viewer.style.maxWidth = '380px';
-      viewer.style.maxHeight = '600px';
+      viewer.style.maxWidth = '400px';
+      viewer.style.maxHeight = '1300px';
     }
   }
 

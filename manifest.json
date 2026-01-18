@@ -3,7 +3,7 @@
 {
   "manifest_version": 3,
   "name": "Moodle Task Viewer",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Organizes assignment submissions with a floating task viewer",
   "permissions": ["storage"],
   "content_scripts": [
