@@ -1,4 +1,4 @@
-# Moodle Task Viewer for Ruppin 🎓
+# Moodle Task Viewer for Ruppin 
 
 Moodle Task Viewer for Ruppin is a Google Chrome extension designed to improve the academic workflow of students at Ruppin Academic Center by providing a clear, accessible, and efficient task-tracking panel directly inside the Moodle platform.
 
@@ -6,7 +6,7 @@ The extension helps students monitor assignments, deadlines, and task statuses w
 
 ---
 
-## 🚀 Features
+## Features
 
 - Displays academic tasks and assignments directly from Moodle  
 - Embedded side panel for quick access while browsing courses  
@@ -17,14 +17,14 @@ The extension helps students monitor assignments, deadlines, and task statuses w
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 While Moodle is a powerful Learning Management System, tracking assignments often requires navigating multiple sections and pages.  
 This extension was built to centralize task visibility, reduce friction, and help students stay organized and on top of their academic responsibilities.
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 Moodle-Task-Viewer-For-Ruppin/  
 ├── manifest.json        Chrome extension configuration  
@@ -36,7 +36,7 @@ Moodle-Task-Viewer-For-Ruppin/
 
 ---
 
-## 🔧 Installation (Chrome Web Store – Recommended)
+## Installation (Chrome Web Store – Recommended)
 
 The simplest way to install Moodle Task Viewer for Ruppin is directly from the Chrome Web Store.
 
@@ -53,7 +53,7 @@ Make sure the ORIGINAL assignments view is set to "Sort By Date / מיין לפ�
 
 ---
 
-## 🔧 Installation (Developer Mode)
+## Installation (Developer Mode)
 
 1. Clone the repository:
 
@@ -75,7 +75,7 @@ Make sure the ORIGINAL assignments view is set to "Sort By Date / מיין לפ�
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - The extension injects a content script into Moodle pages  
 - Relevant task and assignment data is extracted from the page structure  
@@ -84,7 +84,7 @@ Make sure the ORIGINAL assignments view is set to "Sort By Date / מיין לפ�
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Notifications for upcoming or overdue assignments  
 - Google Calendar integration  
@@ -101,7 +101,7 @@ It is an independent student-developed tool intended for educational and persona
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source.
   
@@ -109,13 +109,13 @@ This project is open-source.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions, suggestions, and bug reports are welcome.  
 Feel free to open an issue or submit a pull request.
 
 ---
 
-## ⭐ Acknowledgments
+## Acknowledgments
 
 Built with the goal of improving the student experience and learning efficiency at Ruppin Academic Center.
