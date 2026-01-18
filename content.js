@@ -12,6 +12,7 @@
   let updateInterval = null;
   let currentFilter = 'all'; // 'all', 'upcoming', '7days', '30days', 'custom'
   let isCollapsed = false;
+  let preCollapseSize = { width: '400px', height: '220px' }; // Store size before collapse
   let settingsVisible = false;
   let customAssignmentOrder = []; // For custom tab: tracks order and visibility
   let customAssignmentHidden = new Set(); // For custom tab: tracks hidden assignments
@@ -751,6 +752,10 @@
     isCollapsed = !isCollapsed;
     
     if (isCollapsed) {
+      // Save current size before collapsing
+      preCollapseSize.width = viewer.style.width || getComputedStyle(viewer).width;
+      preCollapseSize.height = viewer.style.height || getComputedStyle(viewer).height;
+      
       // Collapse to small square
       body.style.display = 'none';
       header.style.display = 'none';
@@ -764,17 +769,17 @@
       viewer.style.maxWidth = '60px';
       viewer.style.maxHeight = '60px';
     } else {
-      // Expand to full view
+      // Expand to full view and restore saved size
       body.style.display = 'block';
       header.style.display = 'flex';
       if (footer) footer.style.display = 'block';
       collapsed.style.display = 'none';
       viewer.classList.remove('viewer-collapsed-state');
-      viewer.style.width = 'auto';
-      viewer.style.height = 'auto';
+      viewer.style.width = preCollapseSize.width;
+      viewer.style.height = preCollapseSize.height;
       viewer.style.minWidth = '400px';
-      viewer.style.minHeight = 'auto';
-      viewer.style.maxWidth = '400px';
+      viewer.style.minHeight = '220px';
+      viewer.style.maxWidth = '1300px';
       viewer.style.maxHeight = '1300px';
     }
   }
